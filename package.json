@@ -18,7 +18,11 @@
   "homepage": "https://github.com/andresGon/demo-sabana#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-inject": "^4.0.0",
     "gulp-sass": "^2.2.0",
     "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "wiredep": "^4.0.0"
   }
 }
