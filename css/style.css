@@ -4,6 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -355,4 +356,117 @@ th {
 
 .mainWrap {
   width: 1200px;
-  margin: auto; }
+  margin: auto;
+  overflow: hidden; }
+
+.sec01 {
+  width: 100%;
+  height: 688px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../img/sec01-bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  .sec01 .inner01 {
+    width: 100%;
+    margin: auto;
+    z-index: 20;
+    position: absolute;
+    background: #fff;
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    bottom: 15%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0.95+4,0.82+12,0.18+39,0.05+47,0+51,0+100 */
+    background: -moz-linear-gradient(left, white 0%, rgba(255, 255, 255, 0.95) 4%, rgba(255, 255, 255, 0.82) 12%, rgba(255, 255, 255, 0.18) 39%, rgba(255, 255, 255, 0.05) 47%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, white 0%, rgba(255, 255, 255, 0.95) 4%, rgba(255, 255, 255, 0.82) 12%, rgba(255, 255, 255, 0.18) 39%, rgba(255, 255, 255, 0.05) 47%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0.95) 4%, rgba(255, 255, 255, 0.82) 12%, rgba(255, 255, 255, 0.18) 39%, rgba(255, 255, 255, 0.05) 47%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+    /* IE6-9 */ }
+    .sec01 .inner01 h1 {
+      margin: 50px auto;
+      font-family: "Montserrat", sans-serif;
+      color: #fff;
+      display: block;
+      width: 1200px;
+      font-size: 58px;
+      line-height: 50px;
+      text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.9);
+      text-transform: uppercase; }
+  .sec01 .logo {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    width: 199px;
+    height: 173px;
+    background: url(../img/logo.png); }
+
+.sec02 {
+  height: 688px;
+  overflow: hidden; }
+  .sec02 .child02 {
+    width: 100%;
+    height: 200%;
+    background: url(../img/sec02-bg.png);
+    position: relative;
+    top: -100%; }
+
+.sec03 {
+  height: 688px;
+  overflow: hidden; }
+  .sec03 .child03 {
+    width: 100%;
+    height: 200%;
+    background: url(../img/sec03-bg.png);
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    top: -100%; }
+
+.sec04 {
+  width: 100%;
+  height: 688px;
+  overflow: hidden; }
+  .sec04 .child04 {
+    width: 100%;
+    height: 200%;
+    background: url(../img/sec04-bg.png);
+    position: relative;
+    top: -100%; }
+
+.sec05 {
+  width: 100%;
+  height: 688px;
+  overflow: hidden; }
+  .sec05 .child05 {
+    width: 100%;
+    height: 200%;
+    background: url(../img/sec05-bg.png);
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    top: -100%; }
+
+.sec06 {
+  width: 100%;
+  height: 688px;
+  overflow: hidden; }
+  .sec06 .child06 {
+    width: 100%;
+    height: 200%;
+    background: url(../img/sec06-bg.png);
+    position: relative;
+    top: -100%; }
+
+.sec07 {
+  width: 100%;
+  height: 688px;
+  background: url(../img/sec07-bg.png); }
+
+footer {
+  width: 100%;
+  height: 130px;
+  background: url(../img/foot-bg.png); }
