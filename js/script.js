@@ -111,9 +111,29 @@ new ScrollMagic.Scene({triggerElement: ".sec03"})
 
 // ===================================== section04 ===================================
 new ScrollMagic.Scene({triggerElement: ".sec04"})
-				.setTween(".sec04 > div", {y: "80%", ease: Linear.easeNone})
+				.setTween(".sec04 .child04", {y: "80%", ease: Linear.easeNone})
 				.addIndicators()
 				.addTo(controller);
+new ScrollMagic.Scene({triggerElement: ".cont04"})
+				.setTween(".globo01", {top: 200})
+				.addIndicators()
+				.addTo(controller);
+new ScrollMagic.Scene({triggerElement: ".cont04"})
+				.setTween(".globo02", {top: 20})
+				.addIndicators()
+				.addTo(controller);
+new ScrollMagic.Scene({triggerElement: ".cont04"})
+				.setTween(".nubes08", {opacity: 1})
+				.addIndicators()
+				.addTo(controller);
+new ScrollMagic.Scene({triggerElement: ".cont04"})
+				.setTween(".ingles-bg-01", {left: 0})
+				.addIndicators()
+				.addTo(controller);
+
+
+// ===================================== section04 ===================================
+
 new ScrollMagic.Scene({triggerElement: ".sec05"})
 				.setTween(".sec05 > div", {y: "80%", ease: Linear.easeNone})
 				.addIndicators()

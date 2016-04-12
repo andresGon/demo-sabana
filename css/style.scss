@@ -321,6 +321,105 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	width: 100%;
 	height: 688px;
 	overflow: hidden;
+	position: relative;
+	.cont04{
+		position: absolute;
+		top: 0;
+		z-index: 20;
+		width: 100%;
+		height: 100%;
+		.wrapCont{
+			.nubes08{
+				width: 1175px;
+				height: 420px;
+				background: url(../img/nubes08.png);
+				position: absolute;
+				top:5%;
+				z-index: 19;
+				clear: both;
+				opacity: 0;
+			}
+			.globo01{
+				position: absolute;
+				top: 10px;
+				left: 0;
+				width: 98px;
+				height: 143px;
+				background: url(../img/globo01.png);
+				z-index: 20;
+				clear: both;
+			}
+			.globo02{
+				position: absolute;
+				top: 300px;
+				right: 0;
+				width: 88px;
+				height: 129px;
+				background: url(../img/globo02.png);
+				z-index: 20;
+				clear: both;
+			}
+			.ingles-bg-01{
+				width: 1273px;
+				height: 105px;
+				background: url(../img/ingles-bg.png);
+				position: absolute;
+				bottom: 0;
+				left: -100px;
+			}
+			.wrapText05{
+				position: relative;
+				clear: both;
+				width: 796px;
+				height: 100%;
+				padding-top: 5%;
+				margin: auto;
+				z-index: 40;
+				.titIngles{
+					width: 301px;
+					height: 98px;
+					background: url(../img/english.svg);
+					z-index: 30;
+					clear: both;
+					position: relative;
+				}
+				.wrapIngles{
+					@include flexbox;
+					@include justify-content(space-around);
+					@include align-items(top);
+					.colIngles{
+						width: 25%;
+						img{
+							border: 3px solid #B67F2B;
+						}
+						h3{
+							color: #fff;
+							font-family: $titi;
+							font-size: 25px;
+							text-shadow: 4px 4px 6px rgba(0, 0, 0, .5);
+							margin: 5px 0;
+						}
+						p{
+							font-family: $open;
+							color: #fff;
+							font-size: 14px;
+							text-shadow: 4px 4px 6px rgba(0, 0, 0, .5);
+						}
+
+					}
+				}
+				.btn-more{
+					width: 40px;
+					height: 40px;
+					display: block;
+					background: url(../img/btn-more.svg);
+					float: right;
+				}
+			}
+
+		}
+
+	}
 	.child04{
 		width: 100%;
 		height: 200%;
