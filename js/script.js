@@ -44,7 +44,7 @@ new ScrollMagic.Scene({triggerElement: ".cont02"})
 								curviness: 1.25,
 								autoRotate: true,
 								values: [
-										{x: 100,	y: -20},
+										{x: 100,	y: 0},
 										{x: 300,	y: 10}
 									]
 							},
@@ -91,9 +91,25 @@ new ScrollMagic.Scene({triggerElement: ".cont02"})
 // ===================================== section03 ===================================
 
 new ScrollMagic.Scene({triggerElement: ".sec03"})
-				.setTween(".sec03 > div", {y: "80%", ease: Linear.easeNone})
+				.setTween(".sec03 .child03", {y: "80%", ease: Linear.easeNone})
 				.addIndicators()
 				.addTo(controller);
+new ScrollMagic.Scene({triggerElement: ".sec03"})
+				.setTween(".nubes07", { opacity: 1})
+				.addIndicators()
+				.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: ".sec03"})
+				.setTween(".frances-bg-01", { left: 250})
+				.addIndicators()
+				.addTo(controller);
+new ScrollMagic.Scene({triggerElement: ".sec03"})
+				.setTween(".frances-bg-02", { right: 0})
+				.addIndicators()
+				.addTo(controller);
+
+
+// ===================================== section04 ===================================
 new ScrollMagic.Scene({triggerElement: ".sec04"})
 				.setTween(".sec04 > div", {y: "80%", ease: Linear.easeNone})
 				.addIndicators()
