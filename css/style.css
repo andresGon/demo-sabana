@@ -844,7 +844,97 @@ th {
 .sec06 {
   width: 100%;
   height: 688px;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
+  .sec06 .cont06 {
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%; }
+    .sec06 .cont06 .wrapCont .contenidos-bg {
+      width: 1139px;
+      height: 613px;
+      background: url(../img/contenidos-bg.svg);
+      position: absolute;
+      top: 300px; }
+    .sec06 .cont06 .wrapCont .wrapText06 {
+      position: relative;
+      clear: both;
+      width: 1040px;
+      height: 100%;
+      padding-top: 5%;
+      margin: auto;
+      z-index: 40; }
+      .sec06 .cont06 .wrapCont .wrapText06 p {
+        font-family: "Titillium Web", sans-serif;
+        color: #fff;
+        font-size: 16px;
+        float: right;
+        clear: both;
+        margin: 0 0 50px 0;
+        font-weight: bold;
+        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); }
+    .sec06 .cont06 .wrapCont h3 {
+      font-family: "Montserrat", sans-serif;
+      color: #fff;
+      font-size: 25px;
+      text-transform: uppercase;
+      float: right;
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+      margin: 0; }
+      .sec06 .cont06 .wrapCont h3 span {
+        display: block;
+        color: #C3D219;
+        font-size: 33px; }
+    .sec06 .cont06 .wrapCont .wrapBox06 {
+      clear: both;
+      margin: 10px 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      -webkit-justify-content: space-around;
+      -moz-justify-content: space-around;
+      justify-content: space-around; }
+      .sec06 .cont06 .wrapCont .wrapBox06 .box {
+        width: 331px;
+        height: 148px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(225, 0, 68, 0.7);
+        overflow: hidden; }
+        .sec06 .cont06 .wrapCont .wrapBox06 .box .wrapImg {
+          width: 112px;
+          height: 112px;
+          border-radius: 112px;
+          border: 2px solid #C3D219;
+          overflow: hidden;
+          -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+          position: relative;
+          float: left;
+          margin: 10px 0 0 10px; }
+          .sec06 .cont06 .wrapCont .wrapBox06 .box .wrapImg img {
+            position: absolute;
+            top: -3%;
+            left: -36%; }
+        .sec06 .cont06 .wrapCont .wrapBox06 .box .wrapTxt06 {
+          float: left;
+          width: 180px;
+          margin-left: 10px; }
+          .sec06 .cont06 .wrapCont .wrapBox06 .box .wrapTxt06 h3 {
+            font-family: "Titillium Web", sans-serif;
+            font-size: 21px;
+            margin: 0;
+            text-align: left;
+            float: right;
+            width: 100%; }
+          .sec06 .cont06 .wrapCont .wrapBox06 .box .wrapTxt06 p {
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 300; }
   .sec06 .child06 {
     width: 100%;
     height: 200%;

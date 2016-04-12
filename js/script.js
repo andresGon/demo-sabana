@@ -211,6 +211,8 @@ new ScrollMagic.Scene({triggerElement: ".sec05"})
 
 // ===================================== section 06 ====================================
 new ScrollMagic.Scene({triggerElement: ".sec06"})
-				.setTween(".sec06 > div", {y: "80%", ease: Linear.easeNone})
-
+				.setTween(".sec06 .child06", {y: "80%", ease: Linear.easeNone})
+				.addTo(controller);
+new ScrollMagic.Scene({triggerElement: ".sec06"})
+				.setTween(".contenidos-bg", {top: -60})
 				.addTo(controller);
