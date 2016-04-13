@@ -894,7 +894,48 @@ th {
         border-radius: 40px;
         background: url(../img/btn-more-4.svg);
         display: block;
-        margin: 20px auto 0; }
+        margin: 20px auto 0;
+        clear: both; }
+      .sec06 .cont06 .wrapCont .wrapText06 .wrapImg {
+        width: 112px;
+        height: 112px;
+        border-radius: 112px;
+        border: 2px solid #C3D219;
+        overflow: hidden;
+        -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+        position: relative;
+        float: left;
+        margin: 10px 0 0 10px; }
+        .sec06 .cont06 .wrapCont .wrapText06 .wrapImg img {
+          position: absolute;
+          top: -3%;
+          left: -36%; }
+      .sec06 .cont06 .wrapCont .wrapText06 .col1 {
+        width: 180px;
+        float: left; }
+        .sec06 .cont06 .wrapCont .wrapText06 .col1 .wrapImg {
+          float: left; }
+          .sec06 .cont06 .wrapCont .wrapText06 .col1 .wrapImg:nth-of-type(2) {
+            float: right; }
+      .sec06 .cont06 .wrapCont .wrapText06 .col2 {
+        width: 680px;
+        float: left; }
+        .sec06 .cont06 .wrapCont .wrapText06 .col2 .box2 {
+          background: rgba(225, 0, 68, 0.6);
+          border: 2px solid rgba(255, 255, 255, 0.6);
+          width: 490px;
+          height: 199px;
+          margin: auto;
+          color: #fff;
+          font-family: "Titillium Web", sans-serif;
+          font-size: 21px;
+          text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+          line-height: 32px;
+          padding: 20px; }
+      .sec06 .cont06 .wrapCont .wrapText06 .wrapCols06 {
+        width: 100%;
+        float: left; }
     .sec06 .cont06 .wrapCont h3 {
       font-family: "Montserrat", sans-serif;
       color: #fff;

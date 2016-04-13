@@ -625,7 +625,57 @@ box-shadow: 0 2px 2px 2px rgba(0,0,0,.6);
 					background: url(../img/btn-more-4.svg);
 					display: block;
 					margin: 20px auto 0;
+					clear: both;
 				}
+				.wrapImg{
+					width: 112px;
+					height: 112px;
+					border-radius: 112px;
+					border: 2px solid #C3D219;
+					overflow: hidden;
+					-webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
+					box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
+					position: relative;
+					float: left;
+					margin: 10px 0 0 10px;
+					img{
+						position: absolute;
+						top: -3%;
+						left: -36%;
+					}
+				}
+				.col1{
+					width: 180px;
+					float: left;
+					.wrapImg{
+						float: left;
+						&:nth-of-type(2){
+							float: right;
+						}
+					}
+				}
+				.col2{
+					width: 680px;
+					float: left;
+					.box2{
+						background: rgba(225, 0, 68, .6);
+						border: 2px solid rgba(255, 255, 255, .6);
+						width: 490px;
+						height: 199px;
+						margin: auto;
+						color: #fff;
+						font-family: $titi;
+						font-size: 21px;
+						text-shadow: 4px 4px 6px rgba(0, 0, 0, .5);
+						line-height: 32px;
+						padding: 20px;
+					}
+				}
+				.wrapCols06{
+					width: 100%;
+					float: left;
+				}
+			// termina wrap text 06
 			}
 			h3{
 				font-family: $mont;
