@@ -17,7 +17,7 @@ new ScrollMagic.Scene({triggerElement: ".cont01"})
 
 				.addTo(controller);
 new ScrollMagic.Scene({triggerElement: ".cont02"})
-				.setTween(".nube03", { left: 150, opacity: 1} )
+				.setTween(".nube03", { left: -150, opacity: 1} )
 
 				.addTo(controller);
 new ScrollMagic.Scene({triggerElement: ".cont02"})
@@ -29,11 +29,15 @@ new ScrollMagic.Scene({triggerElement: ".cont02"})
 
 				.addTo(controller);
 new ScrollMagic.Scene({triggerElement: ".cont02"})
-				.setTween(".nube05", { bottom: 150} )
+				.setTween(".nube05", { left: 250} )
 
 				.addTo(controller);
 new ScrollMagic.Scene({triggerElement: ".cont02"})
-				.setTween(".nube06", { bottom: 150} )
+				.setTween(".stars", { left: -250} )
+
+				.addTo(controller);
+new ScrollMagic.Scene({triggerElement: ".cont02"})
+				.setTween(".nube06", { right: 350} )
 
 				.addTo(controller);
 

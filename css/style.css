@@ -423,7 +423,9 @@ th {
 .sec02 {
   height: 688px;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  -webkit-box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.6); }
   .sec02 .child02 {
     width: 100%;
     height: 200%;
@@ -432,92 +434,102 @@ th {
     top: -100%;
     -webkit-box-shadow: inset 0 2px 5px 0 rgba(0, 0, 0, 0.6);
     box-shadow: inset 0 2px 5px 0 rgba(0, 0, 0, 0.6); }
+  .sec02 .stars {
+    position: absolute;
+    width: 1853px;
+    height: 518px;
+    background: url(../img/stars.png);
+    z-index: 20;
+    top: 5%;
+    left: 0; }
   .sec02 .cont02 {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     z-index: 20; }
-    .sec02 .cont02 .wrapCont .nube01 {
-      width: 232px;
-      height: 139px;
-      background: url(../img/nube01.svg);
-      position: absolute;
-      top: 0%;
-      left: 0; }
-    .sec02 .cont02 .wrapCont .nube02 {
-      width: 217px;
-      height: 160px;
-      background: url(../img/nube02.svg);
-      position: absolute;
-      top: 2%;
-      right: 0%; }
-    .sec02 .cont02 .wrapCont .nube03 {
-      width: 217px;
-      height: 142px;
-      background: url(../img/nube03.svg);
-      position: absolute;
-      top: 36%;
-      left: 2%; }
-    .sec02 .cont02 .wrapCont .nube04 {
-      width: 217px;
-      height: 114px;
-      background: url(../img/nube04.svg);
-      position: absolute;
-      top: 36%;
-      right: 0; }
-    .sec02 .cont02 .wrapCont .nube05 {
-      width: 90px;
-      height: 49px;
-      background: url(../img/nube05.svg);
-      position: absolute;
-      bottom: 0%;
-      left: 10%; }
-    .sec02 .cont02 .wrapCont .nube06 {
-      width: 111px;
-      height: 68px;
-      background: url(../img/nube06.svg);
-      position: absolute;
-      bottom: 0%;
-      right: 10%; }
-    .sec02 .cont02 .wrapCont .nave {
-      width: 185px;
-      height: 69px;
-      background: url(../img/nave.svg);
-      position: absolute;
-      left: 0;
-      top: 30%; }
-    .sec02 .cont02 .wrapCont .col1 {
-      width: 25%;
-      position: absolute;
-      top: 15%;
-      left: 20%;
-      z-index: 30; }
-      .sec02 .cont02 .wrapCont .col1 h1 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 37px;
-        color: #fff;
-        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); }
-        .sec02 .cont02 .wrapCont .col1 h1 span {
-          color: #C3D219;
-          font-size: 48px;
-          display: block; }
-      .sec02 .cont02 .wrapCont .col1 p {
-        color: #fff;
-        font-family: "Titillium Web", sans-serif;
-        font-size: 26px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-        line-height: 30px; }
-      .sec02 .cont02 .wrapCont .col1 .btn-more {
-        width: 40px;
-        height: 40px;
-        display: block;
-        background: url(../img/btn-more.svg); }
-    .sec02 .cont02 .wrapCont .linkIngles {
-      position: absolute;
-      top: 15%;
-      right: 5%;
-      z-index: 30; }
+    .sec02 .cont02 .wrapCont {
+      margin-top: 30px; }
+      .sec02 .cont02 .wrapCont .nube01 {
+        width: 232px;
+        height: 139px;
+        background: url(../img/nube01.svg);
+        position: absolute;
+        top: 0%;
+        left: 0; }
+      .sec02 .cont02 .wrapCont .nube02 {
+        width: 217px;
+        height: 160px;
+        background: url(../img/nube02.svg);
+        position: absolute;
+        top: 2%;
+        right: 0%; }
+      .sec02 .cont02 .wrapCont .nube03 {
+        width: 217px;
+        height: 142px;
+        background: url(../img/nube03.svg);
+        position: absolute;
+        top: 36%;
+        left: 2%; }
+      .sec02 .cont02 .wrapCont .nube04 {
+        width: 217px;
+        height: 114px;
+        background: url(../img/nube04.svg);
+        position: absolute;
+        top: 36%;
+        right: 0; }
+      .sec02 .cont02 .wrapCont .nube05 {
+        width: 90px;
+        height: 49px;
+        background: url(../img/nube05.svg);
+        position: absolute;
+        bottom: 100px;
+        left: 10px; }
+      .sec02 .cont02 .wrapCont .nube06 {
+        width: 111px;
+        height: 68px;
+        background: url(../img/nube06.svg);
+        position: absolute;
+        bottom: 50px;
+        right: 10%; }
+      .sec02 .cont02 .wrapCont .nave {
+        width: 185px;
+        height: 69px;
+        background: url(../img/nave.svg);
+        position: absolute;
+        left: 0;
+        top: 30%; }
+      .sec02 .cont02 .wrapCont .col1 {
+        width: 25%;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        z-index: 30; }
+        .sec02 .cont02 .wrapCont .col1 h1 {
+          font-family: "Montserrat", sans-serif;
+          font-size: 37px;
+          color: #fff;
+          text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); }
+          .sec02 .cont02 .wrapCont .col1 h1 span {
+            color: #C3D219;
+            font-size: 48px;
+            display: block; }
+        .sec02 .cont02 .wrapCont .col1 p {
+          color: #fff;
+          font-family: "Titillium Web", sans-serif;
+          font-size: 26px;
+          text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+          line-height: 30px; }
+        .sec02 .cont02 .wrapCont .col1 .btn-more {
+          width: 40px;
+          height: 40px;
+          display: block;
+          background: url(../img/btn-more.svg); }
+      .sec02 .cont02 .wrapCont .linkIngles {
+        position: absolute;
+        top: 15%;
+        right: 5%;
+        z-index: 30; }
 
 .sec03 {
   height: 688px;
@@ -875,6 +887,13 @@ th {
         margin: 0 0 50px 0;
         font-weight: bold;
         text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); }
+      .sec06 .cont06 .wrapCont .wrapText06 .btn-more-4 {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        background: url(../img/btn-more-4.svg);
+        display: block;
+        margin: 20px auto 0; }
     .sec06 .cont06 .wrapCont h3 {
       font-family: "Montserrat", sans-serif;
       color: #fff;
@@ -950,7 +969,30 @@ th {
 footer {
   width: 100%;
   height: 130px;
-  background: url(../img/foot-bg.png); }
+  background: url(../img/foot-bg.png);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
 
 .homer {
   opacity: 0; }
+
+.deg {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  background: url(../img/deg.png);
+  z-index: 20;
+  opacity: .4; }

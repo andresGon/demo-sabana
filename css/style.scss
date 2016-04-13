@@ -98,6 +98,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	// height: 100vh;
 	overflow: hidden;
 	position: relative;
+	-webkit-box-shadow: 0 2px 2px 2px rgba(0,0,0,.6);
+box-shadow: 0 2px 2px 2px rgba(0,0,0,.6);
 
 	.child02{
 		width: 100%;
@@ -108,6 +110,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		-webkit-box-shadow:inset 0 2px 5px 0 rgba(0,0,0,.6);
 		box-shadow:inset 0 2px 5px 0 rgba(0,0,0,.6);
 	}
+	.stars{
+		position: absolute;
+		width: 1853px;
+		height: 518px;
+		background: url(../img/stars.png);
+		z-index: 20;
+		top: 5%;
+		left: 0;
+	}
 	.cont02{
 		position: absolute;
 		width: 100%;
@@ -115,6 +126,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		top: 0;
 		z-index: 20;
 		.wrapCont{
+			margin-top: 30px;
 			.nube01{
 				width: 232px;
 				height: 139px;
@@ -152,15 +164,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 				height: 49px;
 				background: url(../img/nube05.svg);
 				position: absolute;
-				bottom: 0%;
-				left: 10%;
+				bottom: 100px;
+				left: 10px;
 			}
 			.nube06{
 				width: 111px;
 				height: 68px;
 				background: url(../img/nube06.svg);
 				position: absolute;
-				bottom: 0%;
+				bottom: 50px;
 				right:  10%;
 			}
 			.nave{
@@ -605,6 +617,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 					font-weight: bold;
 					text-shadow: 4px 4px 6px rgba(0, 0, 0, .5);
 				}
+				.btn-more-4{
+					width: 40px;
+					height: 40px;
+					border-radius: 40px;
+					background: url(../img/btn-more-4.svg);
+					display: block;
+					margin: 20px auto 0;
+				}
 			}
 			h3{
 				font-family: $mont;
@@ -692,7 +712,19 @@ footer{
 	width: 100%;
 	height: 130px;
 	background: url(../img/foot-bg.png);
+	@include flexbox;
+	@include justify-content(space-around);
+	@include align-items(center);
 }
 .homer{
 	opacity: 0;
+}
+.deg{
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	top: 0;
+	background: url(../img/deg.png);
+	z-index: 20;
+	opacity: .4;
 }
