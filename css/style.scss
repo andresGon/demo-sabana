@@ -39,7 +39,7 @@ $open: 'Open Sans', sans-serif;
 	// height: 100vh;
 	position: relative;
 	overflow: hidden;
-	background-image: url(../img/sec01-bg.png);
+	background-image: url(../img/sec01-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -409,13 +409,14 @@ box-shadow: 0 2px 2px 2px rgba(0,0,0,.6);
 							font-family: $titi;
 							font-size: 25px;
 							text-shadow: 4px 4px 6px rgba(0, 0, 0, .5);
-							margin: 5px 0;
+							margin: 0;
 						}
 						p{
 							font-family: $open;
 							color: #fff;
 							font-size: 14px;
 							text-shadow: 4px 4px 6px rgba(0, 0, 0, .5);
+							width: 90%;
 						}
 
 					}
@@ -548,7 +549,7 @@ box-shadow: 0 2px 2px 2px rgba(0,0,0,.6);
 					h3{
 						color: #1D1D1B;
 						font-family: $mont;
-						font-size: 26px;
+						font-size: 22px;
 						text-shadow: 4px 4px 6px rgba(0, 0, 0, .5);
 						font-weight: 300;
 					}
@@ -679,6 +680,7 @@ box-shadow: 0 2px 2px 2px rgba(0,0,0,.6);
 							text-align:left;
 							float: right;
 							width: 100%;
+							text-transform: none;
 						}
 						p{
 							font-family: $open;

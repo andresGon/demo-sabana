@@ -143,31 +143,25 @@ new ScrollMagic.Scene({triggerElement: ".sec05"})
 						var flightpath = {
 							entry : {
 								curviness: 1.25,
-								autoRotate: true,
+								autoRotate: false,
 								values: [
-										{x: 100,	y: 0},
-										{x: 300,	y: 10}
+										{x: 50,	y: 300},
+										{x: 300,	y: 300}
 									]
 							},
 							looping : {
-								curviness: 1.25,
+								//curviness: 1.25,
 								autoRotate: true,
 								values: [
-										{x: 510,	y: 60},
-										{x: 620,	y: -60},
-										{x: 500,	y: -100},
-										{x: 380,	y: 20},
-										{x: 500,	y: 60},
-										{x: 580,	y: 20},
-										{x: 620,	y: 15}
+										{x: 620,	y: 400}
 									]
 							},
 							leave : {
 								curviness: 1.25,
 								autoRotate: true,
 								values: [
-										{x: 660,	y: 20},
-										{x: 800,	y: 130},
+										{x: 660,	y: 400},
+										{x: 800,	y: 380},
 										{x: $(window).width() + 300,	y: -100},
 									]
 							}
