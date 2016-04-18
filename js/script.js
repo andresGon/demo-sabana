@@ -81,8 +81,8 @@ new ScrollMagic.Scene({triggerElement: ".cont02"})
 						// create tween
 						var tween = new TimelineMax()
 							.add(TweenMax.to($(".nave"), 1.2, {css:{bezier:flightpath.entry}, ease:Power1.easeInOut}))
-							.add(TweenMax.to($(".nave"), 2, {css:{bezier:flightpath.looping}, ease:Power1.easeInOut}))
-							.add(TweenMax.to($(".nave"), 1, {css:{bezier:flightpath.leave}, ease:Power1.easeInOut}));
+							.add(TweenMax.to($(".nave"), 3, {css:{bezier:flightpath.looping}, ease:Power1.easeInOut}))
+							.add(TweenMax.to($(".nave"), 1.2, {css:{bezier:flightpath.leave}, ease:Power1.easeInOut}));
 
 						// build scene
 						var scene = new ScrollMagic.Scene({triggerElement: ".cont02", duration: 500, offset: 100})
@@ -119,11 +119,11 @@ new ScrollMagic.Scene({triggerElement: ".sec04"})
 
 				.addTo(controller);
 new ScrollMagic.Scene({triggerElement: ".cont04"})
-				.setTween(".globo01", {top: 200})
+				.setTween(".globo01", {top: 550})
 
 				.addTo(controller);
 new ScrollMagic.Scene({triggerElement: ".cont04"})
-				.setTween(".globo02", {top: 20})
+				.setTween(".globo02", {top: 100})
 
 				.addTo(controller);
 new ScrollMagic.Scene({triggerElement: ".cont04"})

@@ -924,14 +924,13 @@ th {
         .sec06 .cont06 .wrapCont .wrapText06 .col2 .box2 {
           background: rgba(225, 0, 68, 0.6);
           border: 2px solid rgba(255, 255, 255, 0.6);
-          width: 490px;
-          height: 199px;
           margin: auto;
           color: #fff;
           font-family: "Titillium Web", sans-serif;
-          font-size: 21px;
+          font-size: 28px;
           text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
           line-height: 32px;
+          width: 90%;
           padding: 20px; }
       .sec06 .cont06 .wrapCont .wrapText06 .wrapCols06 {
         width: 100%;
