@@ -796,3 +796,36 @@ footer{
 	z-index: 20;
 	opacity: .4;
 }
+// ========================================================= description
+
+
+
+.description{
+	width: 100%;
+	min-height: 500px;
+	background: url(../img/foot-bg.png);
+	clear: both;
+	@include flexbox;
+	//@include justify-content(space-around);
+	@include align-items(center);
+	.wrapDesc{
+		width: 800px;
+		margin: auto;
+		p{
+		color: #0078B6;
+		    font-family: "Montserrat", sans-serif;
+		    font-size: 26px;
+		    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+		    font-weight: 300;
+		}
+		li{
+			color: #0078B6;
+			    font-family: "Montserrat", sans-serif;
+			    font-size: 18px;
+			    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+			    font-weight: 300;
+		}
+	}
+
+
+}
