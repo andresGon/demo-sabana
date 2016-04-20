@@ -214,3 +214,19 @@ new ScrollMagic.Scene({triggerElement: ".sec06"})
 new ScrollMagic.Scene({triggerElement: ".sec06"})
 				.setTween(".contenidos-bg", {top: -60})
 				.addTo(controller);
+//  links en la imagenes
+
+$(document).ready(function() {
+	$('.linkIngles').click(function(event) {
+			window.open('http://bbdigitaldemo.com/KIDS/templates/users/user.php');
+	});
+	$('.wrapFraImg img').click(function(event) {
+		window.open('http://bbdigitaldemo.com/FRANCES/templates/users/user.php');
+	});
+	$('.colIngles img').click(function(event) {
+		window.open('http://bbdigitaldemo.com/INGLES/templates/users/user.php');
+	});
+	$('.wrapText05 img').click(function(event) {
+		window.open('http://bbdigitaldemo.com/DemoVirtual16/');
+	});
+});
