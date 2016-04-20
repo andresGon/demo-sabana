@@ -708,6 +708,18 @@ th {
           .sec04 .cont04 .wrapCont .wrapText04 .wrapIngles .colIngles img {
             border: 3px solid #B67F2B;
             cursor: pointer; }
+          .sec04 .cont04 .wrapCont .wrapText04 .wrapIngles .colIngles h3 {
+            color: #fff;
+            font-family: "Titillium Web", sans-serif;
+            font-size: 25px;
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+            margin: 0; }
+          .sec04 .cont04 .wrapCont .wrapText04 .wrapIngles .colIngles p {
+            font-family: "Open Sans", sans-serif;
+            color: #fff;
+            font-size: 14px;
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+            width: 90%; }
       .sec04 .cont04 .wrapCont .wrapText04 .btn-more {
         width: 40px;
         height: 40px;
