@@ -1137,3 +1137,6 @@ footer {
       font-size: 18px;
       text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
       font-weight: 300; }
+
+.prueba {
+  color: red; }
